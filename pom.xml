@@ -6,7 +6,12 @@
 
     <groupId>com.peoplentech</groupId>
     <artifactId>MobileAutomationFinal</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>generic</module>
+        <module>TDBank</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
